@@ -36,6 +36,7 @@ export const AuthScreen: React.FC<AuthScreenProps> = ({ onAuthSuccess }) => {
           <Typography variant="body" style={styles.subtitle}>
             {isLogin ? 'Welcome back!' : 'Create your account'}
           </Typography>
+          <></>
         </View>
         <View style={styles.formContainer}>
           {isLogin ? (
